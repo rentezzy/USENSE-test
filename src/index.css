@@ -6,8 +6,60 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+.password {
+  width: 300px;
+  margin-top: 40vh;
+}
+.password p {
+  margin: 5px 0;
+  padding: 0;
+  text-align: center;
+}
+.password input {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 18px;
+  border: 1px solid #000000;
+}
+.password input:focus {
+  outline: none;
+}
+.password__status__row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.password__status {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin: 5px 0px;
+  width: 100%;
+}
+.password__status div {
+  flex: 0 1 33%;
+  margin: 0px 2px;
+  box-sizing: border-box;
+  border-radius: 100px;
+  border: 1px solid black;
+  background-color: #979797;
+  height: 7px;
+}
+.status_less div {
+  background-color: #f31414;
+}
+.status_easy div:nth-child(1) {
+  background-color: #f31414;
+}
+.status_medium div:nth-child(1),
+.status_medium div:nth-child(2) {
+  background-color: #f0e117;
+}
+.status_strong div {
+  background-color: #02e20d;
 }
