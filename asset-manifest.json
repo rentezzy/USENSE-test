@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/USENSE-test/static/css/main.2b284fac.css",
+    "main.js": "/USENSE-test/static/js/main.cef6b9a6.js",
+    "index.html": "/USENSE-test/index.html",
+    "main.2b284fac.css.map": "/USENSE-test/static/css/main.2b284fac.css.map",
+    "main.cef6b9a6.js.map": "/USENSE-test/static/js/main.cef6b9a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b284fac.css",
+    "static/js/main.cef6b9a6.js"
+  ]
+}
